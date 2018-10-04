@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    header {
+      left: 15%;
+      right: 13%;
+    }
+    .section-partners-name {
+      margin: 67px 0 13px 0;
+    }
+  
+    .partner {
+      position: relative;
+      text-align: center;
+      width: 220px;
+      margin: 14px auto 11px auto;
+    }
+    .partners {
+      flex-wrap: nowrap;
+      width: 970px;
+      justify-content: space-around;
+      margin: auto;
+  }
+  
+  
+  .partner:last-child {
+    margin-bottom:11px;
+    height: 220px;
+  }
+  .buttom-other {
+    padding: 0px 37px;
+    margin: 9px auto 50px auto;
+  }
+}

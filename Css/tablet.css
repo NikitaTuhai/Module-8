@@ -1,0 +1,77 @@
+@media (min-width: 768px) {
+    header {
+      display: flex;
+      flex-flow: row-reverse;
+      left: 0%;
+      right: 0%;
+      justify-content: space-between;
+    }
+    .site-name {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      margin: 48px;
+    }
+    .navigation {
+      margin: 16px 0px 0 0;
+    }
+    .register {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px 30px 10px 10px;
+      padding: 10px 10px 0 13px;
+    }
+    .register li {
+      display: inline;
+      list-style-type: none;
+      margin: 0 10px 0px 0;
+    }
+    .main {
+      height: 493px;
+    }
+    .main h2 {
+      font-size: 52px;
+      width: 500px;
+      margin: 20px auto 28px auto;
+    }
+    .find-text {
+      font-size: 24px;
+      width: 400px;
+      margin: 0px auto;
+    }
+  
+    .buttom-find {
+      width: 219px;
+      margin: 32px auto 0 auto;
+    }
+    .partner {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto 30px auto;
+    }
+  
+    .partners {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      width: 500px;
+      justify-content: space-between;
+      margin: auto;
+    }
+  
+    .section-partners-name {
+      margin: 67px 0 30px 0;
+    }
+    .buttom-other {
+      padding: 0 35px;
+      margin: -6px auto 50px auto;
+    }
+    .partner:last-child {
+      margin-bottom: 0;
+      height: 100px;
+    }
+    .partner_name {
+      margin: 25px 0 0 0;
+    }
+  }
